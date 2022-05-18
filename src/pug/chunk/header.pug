@@ -1,0 +1,25 @@
+header.header
+    .header__container.container
+        a.logo(href="")
+            +icon("logo", "logo__icon shock-absorber")
+            span.logo__text Shock absorber
+        .header__language.language
+            .language__header
+                img.language__img(src="img/general/flags/flag_eng.svg", alt="")
+                | Eng
+                +icon("arrow-down", "language__icon")
+            .language__body
+                .language__item
+                    img.language__img(src="img/general/flags/flag_eng.svg", alt="")
+                    | Eng
+                .language__item
+                    img.language__img(src="img/general/flags/flag_ukr.svg", alt="")
+                    | Ukr
+                .language__item
+                    img.language__img(src="img/general/flags/flag_fr.svg", alt="")
+                    | Fra
+        form.search
+            +icon("search", "search__icon")
+        .burger-menu
+            +icon("burger", "burger-menu__icon")
+            .burger-menu__dropdown

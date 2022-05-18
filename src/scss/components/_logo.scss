@@ -1,0 +1,12 @@
+.logo {
+  &__icon.shock-absorber {
+    @include size(14px, 40px);
+    margin-right: 5px;
+    fill: var(--color-accent);
+  }
+  &__text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+  }
+}

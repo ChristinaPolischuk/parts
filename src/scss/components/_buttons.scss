@@ -1,0 +1,27 @@
+.btn-general {
+  display: inline-flex;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color: var(--color-accent);
+  border-radius: 70px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn {
+  @extend .btn-general;
+  width: 136px;
+}
+.btn-small {
+  @extend .btn-general;
+  width: 110px;
+}
+
+.btn-container {
+  margin-top: 15px;
+  text-align: center;
+}

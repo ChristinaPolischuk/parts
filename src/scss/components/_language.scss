@@ -1,0 +1,48 @@
+.language {
+  position: relative;
+  line-height: 1;
+  &.is-active {
+    .language__icon {
+      transform: rotate(-90deg);
+    }
+    .language__body {
+      max-height: 110px;
+      visibility: visible;
+    }
+  }
+  &__header, &__item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  &__header {
+    padding: 25px 20px;
+  }
+  &__img {
+    @include size(20px, 12px);
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  &__icon {
+    @include size(10px, 6px);
+    margin-left: 5px;
+    fill: $dark-grey;
+    transition: transform .3s;
+  }
+  &__body {
+    @include position(absolute, $top: 100%, $left: 0, $right: 0);
+    z-index: 10;
+    padding: 15px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    background-color: #ffffff;
+    max-height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    will-change: max-height, visibility;
+    transition: visibility .3s, max-height .3s;
+  }
+  &__item + &__item {
+    margin-top: 5px;
+  }
+}

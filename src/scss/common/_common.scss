@@ -1,0 +1,84 @@
+@import "fonts";
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: $base_font_family;
+  font-size: 16px;
+  line-height: 1.4;
+  color: var(--color-black);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h2, h3, h4, h5, h6 {
+  color: $title-color;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+textarea {
+  resize: none;
+}
+
+input,
+select,
+button {
+  outline: none;
+}
+
+button, input[type="button"] {
+  cursor: pointer;
+  border: none;
+}
+
+.container {
+  max-width: $container_width;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.section {
+  padding: 80px 0;
+  &-bg {
+    background-color: $grey-light;
+  }
+  &-title {
+    margin-bottom: 30px;
+    font-size: 44px;
+    color: #000000;
+  }
+}

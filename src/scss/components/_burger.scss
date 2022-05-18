@@ -1,0 +1,12 @@
+.burger-menu {
+  margin-left: 35px;
+  &__icon {
+    @include size(30px, 20px);
+    fill: var(--color-black);
+    transition: fill .3s;
+    cursor: pointer;
+    &:hover {
+      fill: var(--color-accent);
+    }
+  }
+}

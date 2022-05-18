@@ -1,0 +1,17 @@
+extends ../layout/app
+
+block styles
+    link(rel="stylesheet", href="css/libs/libs.min.css")
+block page
+    include ../chunk/header
+    include index/main
+    include index/car-brands
+    include index/car-models
+    include index/brands
+
+    include ../chunk/footer
+
+block script
+    script(src="js/libs/jquery.min.js")
+    script(src="js/libs/libs.min.js")
+    script(src="js/main.js")

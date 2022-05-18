@@ -1,0 +1,36 @@
+.main {
+  padding: 40px 0 70px;
+  min-height: 600px;
+  @include bg-auto;
+  position: relative;
+  &::before {
+    content: "";
+    @include position(absolute, $top: 0, $left: 0, $bottom: 0);
+    width: 50%;
+    background-color: var(--color-dark-blue);
+    transform: skewX(-20deg);
+  }
+  &::after {
+    content: "";
+    @include position(absolute, $top: 0, $left: 0, $bottom: 0);
+    z-index: -1;
+    width: 100%;
+    background-color: var(--color-dark-blue);
+  }
+  &__container {
+    max-width: 1060px;
+    position: relative;
+    z-index: 10;
+  }
+  &__content {
+    margin-top: 50px;
+    max-width: 360px;
+    color: #ffffff;
+  }
+  &__title {
+    font-size: 54px;
+  }
+  &__subtitle {
+    font-size: 14px;
+  }
+}

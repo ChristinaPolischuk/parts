@@ -1,0 +1,11 @@
+.simplebar {
+  &-track {
+    background-color: var(--color-accent-bg);
+  }
+  &-scrollbar {
+    &.simplebar-visible::before {
+      background-color: var(--color-accent);
+      opacity: 1;
+    }
+  }
+}

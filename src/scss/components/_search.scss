@@ -1,0 +1,15 @@
+.search {
+  &__icon {
+    @include size(16px);
+    fill: var(--color-black);
+    cursor: pointer;
+    transition: fill .3s, transform .3s;
+    &:hover {
+      transform: scale(1.3);
+      fill: var(--color-accent);
+    }
+    &:active {
+      transform: scale(.9);
+    }
+  }
+}

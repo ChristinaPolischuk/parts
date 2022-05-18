@@ -1,0 +1,62 @@
+.custom-select {
+  position: relative;
+  &.is-active {
+    .custom-select__label {
+      color: var(--color-accent);
+    }
+    .custom-select__header {
+      border-color: var(--color-accent);
+    }
+    .custom-select__icon {
+      transform: rotate(-90deg);
+    }
+    .custom-select__body {
+      max-height: 100px;
+      visibility: visible;
+    }
+  }
+  &__label {
+    @include position(absolute, $top: -10px, $left: 15px);
+    z-index: 10;
+    padding: 0 5px;
+    color: $grey;
+    background-color: #ffffff;
+    transition: color .3s;
+  }
+  &__header {
+    cursor: pointer;
+    @include size(195px, 48px);
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    border: 1px solid $grey;
+    transition: border-color .3s;
+  }
+  &__icon {
+    @include size(10px, 6px);
+    fill: $dark-grey;
+    transition: transform .5s;
+  }
+  &__body {
+    @include position(absolute, $top: calc(100% + 5px), $left: 0, $right: 0);
+    z-index: 10;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    background-color: #ffffff;
+    max-height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    will-change: max-height, visibility;
+    transition: visibility .3s, max-height .3s;
+    .scroll {
+      padding: 15px 20px;
+      max-height: 100px;
+    }
+  }
+  &__item {
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+}
