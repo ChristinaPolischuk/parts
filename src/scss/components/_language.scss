@@ -22,6 +22,9 @@
     @include size(20px, 12px);
     margin-right: 5px;
     vertical-align: middle;
+    @include media-sm {
+      display: none;
+    }
   }
   &__icon {
     @include size(10px, 6px);

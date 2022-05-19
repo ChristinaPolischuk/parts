@@ -1,21 +1,29 @@
 .main {
   padding: 40px 0 70px;
   min-height: 600px;
-  @include bg-auto;
+  background-color: var(--color-dark-blue);
+  background-image: url("../img/general/section-main-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 55% 100%;
+  background-position: right top;
   position: relative;
+  z-index: 1;
+  overflow-x: hidden;
+  @include media-sm {
+    background-size: cover;
+  }
   &::before {
     content: "";
     @include position(absolute, $top: 0, $left: 0, $bottom: 0);
-    width: 50%;
+    z-index: 2;
+    width: 45%;
     background-color: var(--color-dark-blue);
     transform: skewX(-20deg);
-  }
-  &::after {
-    content: "";
-    @include position(absolute, $top: 0, $left: 0, $bottom: 0);
-    z-index: -1;
-    width: 100%;
-    background-color: var(--color-dark-blue);
+    transform-origin: bottom left;
+    @include media-sm {
+      transform: skewX(45deg);
+      width: 100%;
+    }
   }
   &__container {
     max-width: 1060px;
@@ -28,7 +36,14 @@
     color: #ffffff;
   }
   &__title {
+    margin-bottom: 10px;
     font-size: 54px;
+    @include media-md {
+      font-size: 32px;
+    }
+    span {
+      display: block;
+    }
   }
   &__subtitle {
     font-size: 14px;

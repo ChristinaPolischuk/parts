@@ -6,18 +6,19 @@ mixin brands(src, brandName)
 section.section
     .container
         h2.section-title By brands
-        .brands
-            +brands("img/general/car-brands/volkswagen.png", "Volkswagen")
-            +brands("img/general/car-brands/ford.png", "Ford")
-            +brands("img/general/car-brands/toyota.png", "Toyota")
-            +brands("img/general/car-brands/peugeot.png", "Peugeot")
-            +brands("img/general/car-brands/porsche.png", "Porsche")
-            +brands("img/general/car-brands/opel.png", "Opel")
-            +brands("img/general/car-brands/nissan.png", "Nissan")
-            +brands("img/general/car-brands/mitsubishu.png", "Mitsubishu")
-            +brands("img/general/car-brands/mercedes.png", "Mercedes Benz")
-            +brands("img/general/car-brands/mazda.png", "Mazda")
-            +brands("img/general/car-brands/lexus.png", "Lexus")
-            +brands("img/general/car-brands/kia.png", "Kia")
+        .brands__wrapper(data-simplebar, data-simplebar-auto-hide="false")
+            .brands
+                +brands("img/general/car-brands/volkswagen.png", "Volkswagen")
+                +brands("img/general/car-brands/ford.png", "Ford")
+                +brands("img/general/car-brands/toyota.png", "Toyota")
+                +brands("img/general/car-brands/peugeot.png", "Peugeot")
+                +brands("img/general/car-brands/porsche.png", "Porsche")
+                +brands("img/general/car-brands/opel.png", "Opel")
+                +brands("img/general/car-brands/nissan.png", "Nissan")
+                +brands("img/general/car-brands/mitsubishu.png", "Mitsubishu")
+                +brands("img/general/car-brands/mercedes.png", "Mercedes Benz")
+                +brands("img/general/car-brands/mazda.png", "Mazda")
+                +brands("img/general/car-brands/lexus.png", "Lexus")
+                +brands("img/general/car-brands/kia.png", "Kia")
         .btn-container
             button.btn See more

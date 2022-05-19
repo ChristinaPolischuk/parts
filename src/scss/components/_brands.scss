@@ -1,6 +1,7 @@
 .brands {
   display: flex;
   flex-wrap: wrap;
+  width: 1240px;
   &__item {
     display: flex;
     flex-direction: column;
@@ -10,15 +11,24 @@
     width: 15%;
     margin-right: 50px;
     margin-bottom: 30px;
+    @include media-md {
+      margin-right: 15px;
+    }
   }
   &__img {
     margin: auto;
     max-width: 100%;
     max-height: 86px;
+    @include media-md {
+      max-height: 60px;
+    }
   }
   &__name {
     margin-top: 15px;
     font-size: 20px;
     font-weight: 500;
+    @include media-md {
+      font-size: 16px;
+    }
   }
 }

@@ -1,5 +1,8 @@
 .burger-menu {
   margin-left: 35px;
+  @include media-sm {
+    margin-left: 20px;
+  }
   &__icon {
     @include size(30px, 20px);
     fill: var(--color-black);

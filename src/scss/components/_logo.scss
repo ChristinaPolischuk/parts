@@ -8,5 +8,8 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1;
+    @include media-md {
+      font-size: 16px;
+    }
   }
 }

@@ -104,9 +104,3 @@
     @content;
   }
 }
-
-@mixin bg-auto {
-  background-repeat: no-repeat;
-  background-size: auto 100%;
-  background-position: right top;
-}
