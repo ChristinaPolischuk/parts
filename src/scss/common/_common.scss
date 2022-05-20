@@ -67,6 +67,23 @@ button, input[type="button"] {
   border: none;
 }
 
+p {
+  font-size: 16px;
+  @include media-sm {
+    font-size: 14px;
+  }
+}
+
+p + p {
+  margin-top: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .container {
   max-width: $container_width;
   padding: 0 15px;
@@ -74,15 +91,40 @@ button, input[type="button"] {
 }
 .section {
   padding: 80px 0;
+  @include media-md {
+    padding: 40px 0;
+  }
   &-bg {
     background-color: $grey-light;
   }
   &-title {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 44px;
     color: #000000;
     @include media-md {
       font-size: 32px;
     }
   }
+}
+
+.block {
+  &__title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    @include media-sm {
+      font-size: 16px;
+    }
+  }
+}
+
+.more {
+  display: inline-flex;
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-accent);
 }

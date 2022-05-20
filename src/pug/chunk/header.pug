@@ -3,19 +3,20 @@ header.header
         a.logo(href="")
             +icon("logo", "logo__icon shock-absorber")
             span.logo__text Shock absorber
-        .header__language.language
-            .language__header
+        .header__language.language.js-select-language
+            +icon("arrow-down", "language__icon")
+            input(type="hidden", name="item", value="1")
+            .language__selected.js-language-selected
                 img.language__img(src="img/general/flags/flag_eng.svg", alt="")
                 | Eng
-                +icon("arrow-down", "language__icon")
-            .language__body
-                .language__item
+            .language__list
+                .language__option.js-select-language-option(data-select-val="1")
                     img.language__img(src="img/general/flags/flag_eng.svg", alt="")
                     | Eng
-                .language__item
+                .language__option.js-select-language-option(data-select-val="2")
                     img.language__img(src="img/general/flags/flag_ukr.svg", alt="")
                     | Ukr
-                .language__item
+                .language__option.js-select-language-option(data-select-val="3")
                     img.language__img(src="img/general/flags/flag_fr.svg", alt="")
                     | Fra
         form.search

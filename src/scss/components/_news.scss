@@ -1,0 +1,35 @@
+.news {
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    @include media-md {
+      flex-direction: column;
+    }
+    & > * {
+      width: 48%;
+      @include media-md {
+        width: 100%;
+      }
+    }
+  }
+  & > *:not(:last-child) {
+    margin-bottom: 80px;
+    @include media-md {
+      margin-bottom: 30px;
+    }
+  }
+  &__info {
+    @include media-md {
+      order: 1;
+      margin-bottom: 15px;
+    }
+  }
+  &__img {
+    @include media-md {
+      order: 2;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}

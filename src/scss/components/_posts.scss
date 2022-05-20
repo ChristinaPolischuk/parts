@@ -1,0 +1,12 @@
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &__item {
+    width: 49%;
+    @extend .block-shadow;
+    @include media-md {
+      width: 100%;
+    }
+  }
+}

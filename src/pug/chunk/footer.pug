@@ -1,2 +1,38 @@
-footer
-    p Footer
+footer.footer
+    .footer__container.container
+        .footer__item
+            a.logo(href="")
+                +icon("logo", "logo__icon white shock-absorber")
+                span.logo__text Shock absorber
+        .footer__item
+            h6.footer__title Lorem ipsum
+            nav.footer__nav
+                a.footer__nav-link(href="#") Lorem ipsum
+                a.footer__nav-link(href="#") Lorem ipsum
+                a.footer__nav-link(href="#") Lorem ipsum
+                a.footer__nav-link(href="#") Lorem ipsum
+        .footer__item
+            h6.footer__title Lorem ipsum
+            nav.footer__nav
+                a.footer__nav-link(href="#") Lorem ipsum
+                a.footer__nav-link(href="#") Lorem ipsum
+                a.footer__nav-link(href="#") Lorem ipsum
+                a.footer__nav-link(href="#") Lorem ipsum
+        .footer__item
+            h6.footer__title International customer service
+            .select-language.js-select-language
+                +icon("arrow-down", "language__icon")
+                input(type="hidden", name="item", value="1")
+                .select-language__selected.js-language-selected
+                    img.language__img(src="img/general/flags/flag_eng.svg", alt="")
+                    | English
+                .select-language__list
+                    .select-language__option.js-select-language-option(data-select-val="1")
+                        img.language__img(src="img/general/flags/flag_eng.svg", alt="")
+                        | English
+                    .select-language__option.js-select-language-option(data-select-val="2")
+                        img.language__img(src="img/general/flags/flag_ukr.svg", alt="")
+                        | Ukraine
+                    .select-language__option.js-select-language-option(data-select-val="3")
+                        img.language__img(src="img/general/flags/flag_fr.svg", alt="")
+                        | France
