@@ -20,38 +20,105 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="665b0462-203b-444f-a2c9-d915d2a3f7d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pug/pages/index/categories.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/pages/index/news.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/pages/index/posts.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/components/_categories.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/components/_news.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/components/_posts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/helpers/_extends.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-10.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-10.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-11.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-11.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-12.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-12.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-13.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-13.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-14.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-14.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-15.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-15.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-16.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-16.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-17.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-17.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-18.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-18.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-19.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-19.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-20.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-20.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-5.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-6.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-7.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-8.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-9.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main-9.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/index-10.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/index-11.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/index-12.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/index-13.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/index-14.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/index-15.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/index-16.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/index-17.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/index-18.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/index-19.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/index-2.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/index-20.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/index-3.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/index-4.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/index-5.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/index-6.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/index-7.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/index-8.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/index-9.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/color_scheme_10.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/color_scheme_11.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/color_scheme_12.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/color_scheme_13.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/color_scheme_14.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/color_scheme_15.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/color_scheme_16.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/color_scheme_17.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/color_scheme_18.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/color_scheme_19.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/color_scheme_20.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/color_scheme_3.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/color_scheme_4.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/color_scheme_5.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/color_scheme_6.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/color_scheme_7.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/color_scheme_8.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/color_scheme_9.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main-10.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main-11.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main-12.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main-13.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main-14.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main-15.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main-16.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main-17.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main-18.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main-19.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main-20.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main-3.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main-4.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main-5.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main-6.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main-7.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main-8.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main-9.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main-1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main-1.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main-1.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main-2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main-2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main-2.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/articles/article_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/articles/article_1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/articles/article_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/articles/article_2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/articles/article_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/articles/article_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/module/language.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/module/language.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/chunk/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/chunk/footer.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/chunk/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/chunk/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/layout/app.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/layout/app.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/chunk/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/chunk/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/common/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common/_common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_language.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_language.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_logo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/components.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/helpers/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/helpers/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/helpers/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/helpers/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main-1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main-1.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/color-schemes/color_scheme_2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/color-schemes/color_scheme_2.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main-2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main-2.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,25 +137,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pug/pages" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\#Work\parts\src\pug\pages\index" />
-      <recent name="D:\#Work\parts\src\js\module" />
-      <recent name="D:\#Work\parts\src\scss\color-schemes" />
-      <recent name="D:\#Work\parts\src\scss" />
-      <recent name="D:\#Work\parts\src\fonts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\#Work\parts\src\pug\pages\index" />
       <recent name="D:\#gulp-start-project\gulp-2021\src\scss\common" />
       <recent name="D:\#gulp-start-project\gulp-2021\src\pug\pages" />
       <recent name="D:\#gulp-start-project\gulp-2021\gulpfile" />
       <recent name="D:\#gulp-start-project\gulp-2021\dir" />
-      <recent name="D:\#gulp-start-project\gulp-2021\src\css\components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\#Work\parts\src\pug\pages" />
+      <recent name="D:\#Work\parts\src\pug\pages\index" />
+      <recent name="D:\#Work\parts\src\scss" />
+      <recent name="D:\#Work\parts\src\scss\color-schemes" />
+      <recent name="D:\#Work\parts\src\js\module" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -122,6 +189,7 @@
       <workItem from="1652902816656" duration="8072000" />
       <workItem from="1652945696340" duration="11033000" />
       <workItem from="1653050780108" duration="22281000" />
+      <workItem from="1653113780135" duration="7472000" />
     </task>
     <servers />
   </component>
@@ -149,13 +217,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1653045074277" />
+    <state x="479" y="145" width="578" height="534" key="find.popup" timestamp="1653121953092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="479" y="145" width="578" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1653121953092" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1652864050026">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1652864050026" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1653068832251">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1653120498686">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1653068832251" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1653120498686" />
   </component>
 </project>
