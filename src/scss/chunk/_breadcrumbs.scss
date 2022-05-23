@@ -1,0 +1,23 @@
+.breadcrumbs {
+  margin-bottom: 30px;
+  &__link {
+    font-size: 14px;
+    transition: color .3s;
+    &:hover {
+      color: var(--color-accent);
+      &:not(:last-child)::after {
+        pointer-events: none;
+      }
+    }
+    &:not(:last-child)::after {
+      content: "/";
+      display: inline-block;
+      margin: 0 5px;
+      color: var(--color-black);
+    }
+    &:last-child {
+      color: var(--color-accent);
+      pointer-events: none;
+    }
+  }
+}

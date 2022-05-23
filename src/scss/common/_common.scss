@@ -25,7 +25,7 @@ h2, h3, h4, h5, h6 {
   color: $title-color;
 }
 
-ul, li {
+ul, ol, li {
   margin: 0;
   padding: 0;
 }
@@ -78,6 +78,14 @@ p + p {
   margin-top: 20px;
 }
 
+p + .section-title-medium {
+  margin-top: 40px;
+}
+
+p + .section-title-small {
+  margin-top: 15px;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -86,13 +94,14 @@ p + p {
 
 .container {
   max-width: $container_width;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
 .section {
-  padding: 80px 0;
+  padding: 50px 0;
   @include media-md {
-    padding: 40px 0;
+    padding: 25px 0;
   }
   &-bg {
     background-color: $grey-light;
@@ -105,9 +114,58 @@ p + p {
       font-size: 32px;
     }
   }
+  &-title-medium {
+    margin-bottom: 10px;
+    font-size: 34px;
+    @include media-md {
+      font-size: 28px;
+    }
+  }
+}
+
+.page {
+  padding: 50px 0;
+  background-color: $grey-light;
+  &__inner {
+    display: flex;
+    align-items: flex-start;
+    @include media-md {
+      flex-direction: column;
+    }
+  }
+  @include media-md {
+    padding: 25px 0;
+  }
+}
+
+.sidebar {
+  flex: none;
+  width: 320px;
+  margin-left: 30px;
+  padding-left: 30px;
+  border-left: 1px solid var(--color-accent-bg);
+  @include media-md {
+    width: auto;
+    margin-left: 0;
+    padding-left: 0;
+    border: none;
+  }
 }
 
 .block {
+  padding: 25px 20px;
+  background-color: #fff;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  @include media-md {
+    padding: 20px;
+  }
+  & + & {
+    margin-top: 30px;
+    @include media-md {
+      margin-top: 20px;
+    }
+  }
   &__title {
     margin-bottom: 10px;
     font-size: 20px;
@@ -115,6 +173,13 @@ p + p {
     @include media-sm {
       font-size: 16px;
     }
+  }
+}
+
+.block-show-tablet {
+  display: none;
+  @include media-md {
+    display: block;
   }
 }
 
@@ -127,4 +192,37 @@ p + p {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--color-accent);
+}
+
+.unordered-list {
+  margin: 10px 0;
+  &__item {
+    display: flex;
+    &::before {
+      content: "";
+      display: inline-flex;
+      flex: none;
+      margin-top: 7px;
+      margin-right: 10px;
+      @include size(9px);
+      border-radius: 9px;
+      background-color: var(--color-accent);
+    }
+  }
+}
+
+.ordered-list {
+  margin: 10px 0;
+  counter-reset: list-counter;
+  &__item {
+    display: flex;
+    &::before {
+      counter-increment: list-counter;
+      content: counter(list-counter)')';
+      display: inline-flex;
+      font-weight: 700;
+      margin-right: 10px;
+      color: var(--color-accent);
+    }
+  }
 }
