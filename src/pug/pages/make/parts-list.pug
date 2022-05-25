@@ -1,0 +1,24 @@
+mixin partsListItem
+    .parts-list__item
+        a.parts-list__img(href="#")
+            img(src="img/general/parts/Autolite_103_Nickel_Spark_Plug.png", alt="Autolite 103 Nickel Spark Plug")
+        .parts-list__info
+            .parts-list__header
+                a.parts-list__brand(href="#")
+                    img(src="img/general/brands/autolite.png", alt="Autolite")
+                a.parts-list__car-model(href="#") Honda Accord
+            h6.parts-list__name Autolite 103 Nickel Spark Plug
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            a.btn(href="#") Check price
+
+
+section.section.section-bg
+    .container
+        h2.section-title Popular parts for populars models
+        .parts-list
+            +partsListItem
+            +partsListItem
+            +partsListItem
+            +partsListItem
+        .btn-container
+            button.btn Show more

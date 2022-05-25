@@ -1,0 +1,20 @@
+extends ../layout/app
+
+block styles
+    link(rel="stylesheet", href="css/libs/libs.min.css")
+    link(rel="stylesheet", href="css/main-1.min.css")
+block page
+    .wrapper
+        include ../chunk/header
+
+        include make-model-year/car-model
+        include make-model-year/parts-list
+        include make-model-year/seo-block
+        include make-model-year/categories
+
+        include ../chunk/footer
+
+block script
+    script(src="js/libs/jquery.min.js")
+    script(src="js/libs/libs.min.js")
+    script(src="js/main.js")

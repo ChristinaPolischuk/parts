@@ -1,0 +1,24 @@
+mixin brands(src, brandName)
+    a.brands__item(href="")
+        img.brands__img(src=src, alt=brandName)
+        span.brands__name=brandName
+
+section.section
+    .container
+        h2.section-title Popular brands of parts
+        .brands__wrapper(data-simplebar, data-simplebar-auto-hide="false")
+            .brands
+                +brands("img/general/brands/autolite.png", "Autolite")
+                +brands("img/general/brands/bosch.png", "Bosch")
+                +brands("img/general/brands/champion.png", "Champion")
+                +brands("img/general/brands/denso.png", "Denso")
+                +brands("img/general/brands/e-3.png", "E 3")
+                +brands("img/general/brands/ngk.png", "NGK")
+                +brands("img/general/brands/perde.png", "Perde")
+                +brands("img/general/brands/pulstar.png", "Pulstar")
+                +brands("img/general/brands/ammex.png", "Ammex")
+                +brands("img/general/brands/brand.png", "Brand")
+                +brands("img/general/brands/champion1.png", "Champion")
+                +brands("img/general/brands/ntk.png", "NTK")
+        .btn-container
+            button.btn See more

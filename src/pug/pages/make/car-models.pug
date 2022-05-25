@@ -1,0 +1,19 @@
+mixin carModels(src, modelsName)
+    a.car-models__item(href="")
+        img.car-models__img(src=src, alt=modelsName)
+        span.car-models__name=modelsName
+
+section.section.section-bg
+    .container
+        h2.section-title Models
+        .car-models__content
+            +carModels("img/general/car-models/Honda_Fit.png", "Honda Fit")
+            +carModels("img/general/car-models/Honda_Accord.png", "Honda Accord")
+            +carModels("img/general/car-models/Honda_Accord_Hybrid.png", "Honda Accord Hybrid")
+            +carModels("img/general/car-models/Honda_Accord_Plug-In_Hybrid.png", "Honda Accord Plug-In Hybrid")
+            +carModels("img/general/car-models/Honda_Fit.png", "Honda Fit")
+            +carModels("img/general/car-models/Honda_Accord.png", "Honda Accord")
+            +carModels("img/general/car-models/Honda_Accord_Hybrid.png", "Honda Accord Hybrid")
+            +carModels("img/general/car-models/Honda_Accord_Plug-In_Hybrid.png", "Honda Accord Plug-In Hybrid")
+        .btn-container
+            button.btn See more

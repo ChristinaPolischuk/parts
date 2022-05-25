@@ -1,0 +1,20 @@
+mixin categoriesItem(icon, title)
+    a(href="#").categories__item
+        span.categories__bg
+            +icon(icon, "categories__icon")
+        span.block__title=title
+
+section.section.section-bg
+    .container
+        h2.section-title Featured categories
+        .categories
+            +categoriesItem("filter", "Filter")
+            +categoriesItem("shock-absorber", "Shock absorber")
+            +categoriesItem("accumulator", "Accumulator")
+            +categoriesItem("shock-absorber", "Shock absorber")
+            +categoriesItem("filter", "Filter")
+            +categoriesItem("shock-absorber", "Shock absorber")
+            +categoriesItem("accumulator", "Accumulator")
+            +categoriesItem("shock-absorber", "Shock absorber")
+        .btn-container
+            button.btn See more
