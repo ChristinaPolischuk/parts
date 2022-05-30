@@ -6,47 +6,47 @@ form.filter-form
         h6.filter-form__title Specify make, year and model to find filters:
         .filter-form__content
             .custom-select
+                input(type="hidden", name="item", value="0")
                 label.custom-select__label Year
-                .custom-select__header
-                    | Select
-                    +icon("arrow-down", "custom-select__icon")
+                +icon("arrow-down", "custom-select__icon")
+                .custom-select__header Select
                 .custom-select__body
                     .scroll(data-simplebar, data-simplebar-auto-hide="false")
-                        .custom-select__item(data-value="2022") 2022
-                        .custom-select__item(data-value="2021") 2021
-                        .custom-select__item(data-value="2020") 2020
-                        .custom-select__item(data-value="2019") 2019
+                        .custom-select__item(data-select-val="2022") 2022
+                        .custom-select__item(data-select-val="2021") 2021
+                        .custom-select__item(data-select-val="2020") 2020
+                        .custom-select__item(data-select-val="2019") 2019
             .custom-select
+                input(type="hidden", name="item", value="0")
                 label.custom-select__label Make
-                .custom-select__header
-                    | Select
-                    +icon("arrow-down", "custom-select__icon")
+                +icon("arrow-down", "custom-select__icon")
+                .custom-select__header Select
                 .custom-select__body
                     .scroll(data-simplebar, data-simplebar-auto-hide="false")
-                        .custom-select__item(data-value="2022") 2022
-                        .custom-select__item(data-value="2021") 2021
-                        .custom-select__item(data-value="2020") 2020
-                        .custom-select__item(data-value="2019") 2019
+                        .custom-select__item(data-select-val="2022") 2022
+                        .custom-select__item(data-select-val="2021") 2021
+                        .custom-select__item(data-select-val="2020") 2020
+                        .custom-select__item(data-select-val="2019") 2019
             .custom-select
+                input(type="hidden", name="item", value="0")
                 label.custom-select__label Model
-                .custom-select__header
-                    | Select
-                    +icon("arrow-down", "custom-select__icon")
+                +icon("arrow-down", "custom-select__icon")
+                .custom-select__header Select
                 .custom-select__body
                     .scroll(data-simplebar, data-simplebar-auto-hide="false")
-                        .custom-select__item(data-value="2022") 2022
-                        .custom-select__item(data-value="2021") 2021
-                        .custom-select__item(data-value="2020") 2020
-                        .custom-select__item(data-value="2019") 2019
+                        .custom-select__item(data-select-val="2022") 2022
+                        .custom-select__item(data-select-val="2021") 2021
+                        .custom-select__item(data-select-val="2020") 2020
+                        .custom-select__item(data-select-val="2019") 2019
             .custom-select
+                input(type="hidden", name="item", value="0")
                 label.custom-select__label Type
-                .custom-select__header
-                    | Select
-                    +icon("arrow-down", "custom-select__icon")
+                +icon("arrow-down", "custom-select__icon")
+                .custom-select__header Select
                 .custom-select__body
                     .scroll(data-simplebar, data-simplebar-auto-hide="false")
-                        .custom-select__item(data-value="2022") 2022
-                        .custom-select__item(data-value="2021") 2021
-                        .custom-select__item(data-value="2020") 2020
-                        .custom-select__item(data-value="2019") 2019
+                        .custom-select__item(data-select-val="2022") 2022
+                        .custom-select__item(data-select-val="2021") 2021
+                        .custom-select__item(data-select-val="2020") 2020
+                        .custom-select__item(data-select-val="2019") 2019
             a.btn-small(href="#") Go
