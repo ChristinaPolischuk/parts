@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="665b0462-203b-444f-a2c9-d915d2a3f7d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/module/mobile-menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/module/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/module/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/chunk/modal-search.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/chunk/_modal.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js/task/libsJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js/task/libsJs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/blogpost.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogpost.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main-1.css" afterDir="false" />
@@ -87,15 +87,16 @@
       <change beforePath="$PROJECT_DIR$/public/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-8.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/libs/libs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/libs/libs.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/make-model-year.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/make-model-year.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/make-model.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/make-model.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/make.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/make.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/chunk/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/chunk/header.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/common/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common/_common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/helpers/_mixins.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/helpers/_mixins.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/chunk/chunk.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/chunk/chunk.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_burger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_burger.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_search.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +172,7 @@
       <workItem from="1653294831845" duration="13179000" />
       <workItem from="1653493652770" duration="15924000" />
       <workItem from="1653604726343" duration="20746000" />
+      <workItem from="1653835476837" duration="21616000" />
     </task>
     <servers />
   </component>
@@ -198,21 +200,21 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1653497812428" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1653522634687">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1653854860108">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1653522634687" />
-    <state x="479" y="145" width="578" height="534" key="find.popup" timestamp="1653512623906">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1653854860108" />
+    <state x="479" y="145" width="578" height="534" key="find.popup" timestamp="1653657412898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="479" y="145" width="578" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1653512623906" />
+    <state x="479" y="145" width="578" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1653657412898" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1653641472883">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1653641472883" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1653648037951">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1653900473158">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1653648037951" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1653900473158" />
   </component>
 </project>

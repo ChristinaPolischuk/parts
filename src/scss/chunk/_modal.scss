@@ -1,0 +1,96 @@
+body.modal-active {
+  overflow: hidden;
+}
+
+.modal {
+  position: relative;
+  display: inline-block;
+  width: $container_width;
+  background: white;
+  padding: 35px;
+  border-radius: 6px;
+  transform: scale(0);
+  animation: zoomIn .5s .8s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+
+  &-container {
+    @include position(fixed, $top: 0, $left: 0);
+    @include size(100%);
+    z-index: 100;
+    display: table;
+    transform: scale(0);
+
+    &.open {
+      transform: scaleY(.01) scaleX(0);
+      animation: unfoldIn 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+
+      .modal {
+        transform:scale(0);
+        animation: zoomIn .5s .8s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+      }
+    }
+
+    &.out {
+      transform: scale(1);
+      animation: unfoldOut 1s .3s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+
+      .modal {
+        animation: zoomOut .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+      }
+    }
+  }
+
+  &-background {
+    display: table-cell;
+    background: rgba(0, 0, 0, .8);
+    text-align: center;
+    vertical-align: middle;
+  }
+  &-close {
+    @include position(absolute, $top: 10px, $right: 10px);
+    @include size(20px);
+    cursor: pointer;
+    fill: var(--color-black);
+  }
+}
+
+@keyframes unfoldIn {
+  0% {
+    transform: scaleY(.005) scaleX(0);
+  }
+  50% {
+    transform: scaleY(.005) scaleX(1);
+  }
+  100% {
+    transform: scaleY(1) scaleX(1);
+  }
+}
+
+@keyframes unfoldOut {
+  0% {
+    transform: scaleY(1) scaleX(1);
+  }
+  50% {
+    transform: scaleY(.005) scaleX(1);
+  }
+  100% {
+    transform: scaleY(.005) scaleX(0);
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes zoomOut {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}

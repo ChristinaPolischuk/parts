@@ -1,5 +1,6 @@
 .search {
-  &__icon {
+  &__open-modal {
+    margin-left: 15px;
     @include size(16px);
     fill: var(--color-black);
     cursor: pointer;
@@ -11,5 +12,46 @@
     &:active {
       transform: scale(.9);
     }
+  }
+}
+
+.search-form {
+  position: relative;
+  display: flex;
+  &__field {
+    flex: 1;
+    padding: 5px 10px;
+    border: 1px solid $grey;
+    border-radius: 6px 0 0 6px;
+    transition: border-color .3s;
+    &:focus {
+      border-color: var(--color-accent);
+    }
+  }
+  &__clear {
+    @include position(absolute, $top: 25px, $right: 70px);
+    @include size(12px);
+    cursor: pointer;
+    fill: var(--color-black);
+    transform: scale(0);
+    transition: transform .3s;
+    &.active {
+      transform: scale(1);
+    }
+  }
+  &__btn {
+    @include size(60px);
+    background-color: var(--color-accent);
+    border-radius: 0 6px 6px 0;
+    &:hover {
+      .search-form__icon {
+        transform: scale(1.1);
+      }
+    }
+  }
+  &__icon {
+    @include size(30px);
+    fill: #fff;
+    transition: transform .3s;
   }
 }

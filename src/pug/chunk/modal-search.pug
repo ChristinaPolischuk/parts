@@ -1,0 +1,9 @@
+.modal-container.search
+    .modal-background
+        .modal
+            +icon("close", "modal-close js-close-modal")
+            form.search-form
+                input.search-form__field(type="text", placeholder="Search by Make Model Year, Product Type, Part Number, or Brand...")
+                +icon("close", "search-form__clear")
+                button.search-form__btn
+                    +icon("search", "search-form__icon")

@@ -29,6 +29,10 @@
       }
     }
 
+    &:hover span {
+      background-color: var(--color-accent);
+    }
+
     &:not(.open):hover span {
       &:nth-child(1) {
         top: -2px;

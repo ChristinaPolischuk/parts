@@ -1,4 +1,5 @@
-mixin icon(name,mod)
+mixin icon(name,mod,elId)
 	- mod = mod || ''
-	svg(class="icon icon-" + name + ' ' + mod)
+	- elId = elId || ''
+	svg(class="icon icon-" + name + ' ' + mod, id=`${elId}`)
 		use(xlink:href="img/sprite/symbol/sprite.svg#" + name)

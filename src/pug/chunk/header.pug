@@ -1,3 +1,4 @@
+include modal-search
 header.header
     .header__container.container
         a.logo(href="")
@@ -19,8 +20,7 @@ header.header
                 .language__option.js-select-language-option(data-select-val="3")
                     img.language__img(src="img/general/flags/flag_fr.svg", alt="")
                     | Fra
-        form.search
-            +icon("search", "search__icon")
+        +icon("search", "search__open-modal js-open-modal", id="search")
         .burger-menu
             .burger-menu__icon#burger
                 span
