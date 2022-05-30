@@ -1,15 +1,52 @@
 .btn-general {
+  position: relative;
+  z-index: 1;
   display: inline-flex;
   flex: none;
   justify-content: center;
   align-items: center;
   height: 40px;
   background-color: var(--color-accent);
+  border: .5px solid var(--color-accent);
   border-radius: 70px;
+  overflow: hidden;
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
+  //transition: background-color .1s;
+  &:hover {
+    background-color: transparent;
+    &::before {
+      animation: criss-cross-left 0.8s both;
+      animation-direction: alternate;
+    }
+    &::after {
+      animation: criss-cross-right 0.8s both;
+      animation-direction: alternate;
+    }
+  }
+  &::before, &::after {
+    content: "";
+    @include position(absolute, $top: 50%);
+    z-index: -1;
+    @include size(20px);
+    background-color: var(--color-accent);
+    border-radius: 50%;
+  }
+  &::before {
+    left: -20px;
+    transform: translate(-50%, -50%);
+
+  }
+  &::after {
+    right: -20px;
+    transform: translate(50%, -50%);
+  }
+  span {
+    position: relative;
+    z-index: 2;
+  }
 }
 
 .btn {
@@ -28,5 +65,33 @@
     @include media-sm {
       width: 100%;
     }
+  }
+}
+
+@keyframes criss-cross-left {
+  0% {
+    left: -20px;
+  }
+  50% {
+    left: 50%;
+    @include size(20px);
+  }
+  100% {
+    left: 50%;
+    @include size(136px*1.5);
+  }
+}
+
+@keyframes criss-cross-right {
+  0% {
+    right: -20px;
+  }
+  50% {
+    right: 50%;
+    @include size(20px);
+  }
+  100% {
+    right: 50%;
+    @include size(136px*1.5);
   }
 }

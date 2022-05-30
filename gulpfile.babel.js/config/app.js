@@ -10,7 +10,8 @@ export default {
         collapseWhitespace: isProd
     },
     pug: {
-        pretty: isDev,
+        // pretty: isDev,
+        pretty: true,
         data: {
             news: news
         }
