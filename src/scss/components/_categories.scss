@@ -12,6 +12,7 @@
     text-align: center;
     @include media-md {
       width: 47%;
+      padding-top: 130px;
     }
     @include media-sm {
       width: 46%;
@@ -45,7 +46,7 @@
     box-shadow: 0 .25em .25em rgba(0,0,0,.3);
     transition: width .3s ease-out, height .3s ease-out, box-shadow .3s ease-out;
     animation: social-hover-off .3s ease-out forwards;
-    @include media-sm {
+    @include media-md {
       margin-bottom: 10px;
       @include size(4rem);
     }
@@ -54,7 +55,7 @@
     max-width: 54px;
     max-height: 54px;
     fill: var(--color-accent);
-    @include media-sm {
+    @include media-md {
       max-width: 33px;
       max-height: 33px;
     }
