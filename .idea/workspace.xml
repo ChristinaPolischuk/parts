@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="665b0462-203b-444f-a2c9-d915d2a3f7d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogpost.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogpost.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main-1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main-1.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main-1.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main-10.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main-10.css" afterDir="false" />
@@ -83,13 +81,10 @@
       <change beforePath="$PROJECT_DIR$/public/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-8.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/make-model-year.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/make-model-year.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/make-model.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/make-model.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/make.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/make.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/chunk/modal-search.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/chunk/modal-search.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/chunk/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/chunk/_modal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_categories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_categories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_search.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/index/parts/filter-form.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index/parts/filter-form.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/make/parts/filter-form.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/make/parts/filter-form.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_custom-select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_custom-select.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +164,7 @@
       <workItem from="1653835476837" duration="21616000" />
       <workItem from="1653973690595" duration="3059000" />
       <workItem from="1654064050164" duration="594000" />
-      <workItem from="1654066946143" duration="2292000" />
+      <workItem from="1654066946143" duration="3385000" />
     </task>
     <servers />
   </component>
@@ -201,10 +196,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1653956796654" />
-    <state x="479" y="145" width="578" height="534" key="find.popup" timestamp="1653919831693">
+    <state x="479" y="145" width="578" height="534" key="find.popup" timestamp="1654070172762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="479" y="145" width="578" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1653919831693" />
+    <state x="479" y="145" width="578" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1654070172762" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1653641472883">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
