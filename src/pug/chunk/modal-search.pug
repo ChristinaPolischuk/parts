@@ -3,7 +3,16 @@
         .modal
             +icon("close", "modal-close js-close-modal")
             form.search-form
-                input.search-form__field(type="text", placeholder="Search by Make Model Year, Product Type, Part Number, or Brand...")
-                +icon("close", "search-form__clear")
-                button.search-form__btn
-                    +icon("search", "search-form__icon")
+                .search-form__group
+                    input.search-form__field(type="text", placeholder="Search by Make Model Year, Product Type, Part Number, or Brand...")
+                    +icon("close", "search-form__clear")
+                    button.search-form__btn
+                        +icon("search", "search-form__icon")
+                .search-form__dropdown.active
+                    a.search-form__link(href="#") Bridge Carpenter
+                    a.search-form__link(href="#") Car Painter
+                    a.search-form__link(href="#") Card Tender
+                    a.search-form__link(href="#") Cardiac Care Unit Nurse
+                    a.search-form__link(href="#") Cardiographer
+                    a.search-form__link(href="#") Bridge Carpenter
+                    a.search-form__link(href="#") Car Painter

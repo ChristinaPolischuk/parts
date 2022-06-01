@@ -16,20 +16,22 @@
 }
 
 .search-form {
-  position: relative;
-  display: flex;
+  &__group {
+    position: relative;
+    display: flex;
+  }
   &__field {
     flex: 1;
-    padding: 5px 10px;
+    padding: 5px 20px 5px 15px;
     border: 1px solid $grey;
-    border-radius: 6px 0 0 6px;
+    border-radius: 70px 0 0 70px;
     transition: border-color .3s;
     &:focus {
       border-color: var(--color-accent);
     }
   }
   &__clear {
-    @include position(absolute, $top: 25px, $right: 70px);
+    @include position(absolute, $top: 25px, $right: 115px);
     @include size(12px);
     cursor: pointer;
     fill: var(--color-black);
@@ -40,9 +42,12 @@
     }
   }
   &__btn {
-    @include size(60px);
+    @include size(110px, 60px);
     background-color: var(--color-accent);
-    border-radius: 0 6px 6px 0;
+    border-radius: 0 70px 70px 0;
+    @include media-md {
+      @include size(60px, 45px);
+    }
     &:hover {
       .search-form__icon {
         transform: scale(1.1);
@@ -53,5 +58,24 @@
     @include size(30px);
     fill: #fff;
     transition: transform .3s;
+  }
+  &__dropdown {
+    margin: 15px auto 0;
+    padding: 15px;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 6px;
+    border: 0.5px solid $grey;
+    transition: width .3s, height .3s;
+    &.active {
+      display: flex;
+    }
+  }
+  &__link {
+    font-weight: 500;
+  }
+  &__link + &__link {
+    margin-top: 10px;
   }
 }
