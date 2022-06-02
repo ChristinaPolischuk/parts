@@ -1,4 +1,6 @@
 .logo {
+  display: flex;
+  align-items: center;
   &__icon {
     &.shock-absorber {
       @include size(14px, 40px);
@@ -12,7 +14,6 @@
   &__text {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1;
     @include media-md {
       font-size: 16px;
     }

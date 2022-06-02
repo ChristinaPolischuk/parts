@@ -61,30 +61,13 @@
       <change beforePath="$PROJECT_DIR$/public/css/main-8.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main-8.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main-9.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main-9.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main-9.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main-9.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-15.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-17.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-18.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-19.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-20.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-20.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/make.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/make.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/index/parts/filter-form.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index/parts/filter-form.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/make/parts/filter-form.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/make/parts/filter-form.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_categories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_categories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/make/car-filters.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/make/car-filters.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/common/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common/_common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_blogpost.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_blogpost.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_filter-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_filter-form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_logo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_search.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +147,8 @@
       <workItem from="1653835476837" duration="21616000" />
       <workItem from="1653973690595" duration="3059000" />
       <workItem from="1654064050164" duration="594000" />
-      <workItem from="1654066946143" duration="8240000" />
+      <workItem from="1654066946143" duration="8932000" />
+      <workItem from="1654196787498" duration="3847000" />
     </task>
     <servers />
   </component>
@@ -196,17 +180,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1654070645048" />
-    <state x="479" y="145" width="578" height="534" key="find.popup" timestamp="1654070172762">
+    <state x="479" y="145" width="578" height="534" key="find.popup" timestamp="1654206406887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="479" y="145" width="578" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1654070172762" />
+    <state x="479" y="145" width="578" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1654206406887" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1653641472883">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1653641472883" />
-    <state x="431" y="145" width="672" height="160" key="search.everywhere.popup" timestamp="1654085289885">
+    <state x="431" y="145" width="672" height="160" key="search.everywhere.popup" timestamp="1654208018694">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="160" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1654085289885" />
+    <state x="431" y="145" width="672" height="160" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1654208018694" />
   </component>
 </project>

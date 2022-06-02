@@ -24,7 +24,7 @@
     flex: 1;
     padding: 5px 20px 5px 15px;
     border: 1px solid $grey;
-    border-radius: 70px 0 0 70px;
+    border-radius: 6px 0 0 6px;
     transition: border-color .3s;
     &:focus {
       border-color: var(--color-accent);
@@ -44,7 +44,7 @@
   &__btn {
     @include size(110px, 60px);
     background-color: var(--color-accent);
-    border-radius: 0 70px 70px 0;
+    border-radius: 0 6px 6px 0;
     @include media-md {
       @include size(60px, 45px);
     }
