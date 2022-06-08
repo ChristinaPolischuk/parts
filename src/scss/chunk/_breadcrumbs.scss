@@ -1,5 +1,5 @@
 .breadcrumbs {
-  margin-bottom: 30px;
+  margin-bottom: 24px;
   &__link {
     font-size: 14px;
     transition: color .3s;
@@ -12,7 +12,7 @@
     &:not(:last-child)::after {
       content: "/";
       display: inline-block;
-      margin: 0 5px;
+      margin: 0 3px;
       color: var(--color-black);
     }
     &:last-child {
