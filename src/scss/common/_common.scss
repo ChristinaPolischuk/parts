@@ -72,7 +72,11 @@ p {
 }
 
 * ~ p {
-  margin-top: 23px;
+  margin-top: 15px;
+}
+
+.block__title + p {
+  margin-top: 0;
 }
 
 p + .section-title-medium {
@@ -112,7 +116,6 @@ p + .section-title-small {
     max-width: 820px;
   }
   &-title {
-    margin-bottom: 4px;
     font-size: 44px;
     color: #000000;
     @include media-md {
@@ -128,6 +131,7 @@ p + .section-title-small {
   }
   &-title-small {
     font-size: 20px;
+    font-weight: 500;
   }
 }
 
@@ -147,12 +151,17 @@ p + .section-title-small {
 }
 
 .sidebar {
+  position: relative;
   flex: none;
   width: 320px;
   margin-left: 67px;
   padding-left: 30px;
-  padding-top: 13px;
-  border-left: 1px solid var(--color-accent-bg);
+  &::before {
+    content: "";
+    @include position(absolute, $top: 10px, $left: 0);
+    @include size(1px, calc(100% - 10px));
+    background-color: $light-blue;
+  }
   @include media-md {
     width: auto;
     margin-left: 0;
@@ -163,13 +172,15 @@ p + .section-title-small {
 
 .block {
   padding: 19px 20px;
-  margin-bottom: 30px;
   background-color: #fff;
   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.07);
   border-radius: 6px;
   @include media-md {
     padding: 20px;
     margin-bottom: 20px;
+  }
+  & + & {
+    margin-top: 30px;
   }
   &__title {
     margin-bottom: 10px;
@@ -190,7 +201,7 @@ p + .section-title-small {
 
 .more {
   display: inline-flex;
-  margin-top: 15px;
+  margin-top: 10px;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: .05em;
@@ -201,9 +212,12 @@ p + .section-title-small {
 
 .unordered-list {
   margin: 10px 0;
-  padding-left: 10px;
+  padding-left: 5px;
   &__item {
     display: flex;
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
     &::before {
       content: "";
       display: inline-flex;
@@ -219,10 +233,13 @@ p + .section-title-small {
 
 .ordered-list {
   margin: 10px 0;
-  padding-left: 10px;
+  padding-left: 5px;
   counter-reset: list-counter;
   &__item {
     display: flex;
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
     &::before {
       counter-increment: list-counter;
       content: counter(list-counter)')';

@@ -5,25 +5,25 @@
   }
 
   &__icon {
-    @include size(30px, 15px);
+    @include size(30px, 18px);
     position: relative;
     cursor: pointer;
 
     &.open {
       span {
         &:nth-child(1) {
-          top: 7px;
+          top: 9px;
           transform: rotate(135deg);
         }
 
         &:nth-child(2) {
           opacity: 0;
-          left: -15px;
+          left: -18px;
           transition: .16s ease-in-out;
         }
 
         &:nth-child(3) {
-          top: 7px;
+          top: 9px;
           transform: rotate(-135deg);
         }
       }
@@ -40,14 +40,14 @@
       }
 
       &:nth-child(3) {
-        top: 17px;
+        top: 20px;
         transition: .16s ease-in-out;
       }
     }
 
     span {
       @include position(absolute, $left: 0);
-      @include size(100%, 4px);
+      @include size(100%, 3px);
       display: block;
       background-color: var(--color-black);
       border-radius: 6px;
@@ -58,11 +58,11 @@
       }
 
       &:nth-child(2) {
-        top: 7px;
+        top: 9px;
       }
 
       &:nth-child(3) {
-        top: 14px;
+        top: 18px;
       }
     }
   }

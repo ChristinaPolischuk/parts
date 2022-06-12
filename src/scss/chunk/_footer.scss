@@ -32,6 +32,9 @@
       }
     }
   }
+  &__copywright {
+    color: $light-grey;
+  }
   &__title {
     margin-bottom: 10px;
     font-size: 16px;
@@ -44,6 +47,7 @@
     &-link {
       font-size: 14px;
       margin-bottom: 5px;
+      color: $light-grey;
     }
   }
 }
