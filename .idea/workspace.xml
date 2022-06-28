@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="665b0462-203b-444f-a2c9-d915d2a3f7d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogpost.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogpost.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main-1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main-1.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main-1.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main-10.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main-10.css" afterDir="false" />
@@ -63,40 +61,9 @@
       <change beforePath="$PROJECT_DIR$/public/css/main-8.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main-8.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main-9.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main-9.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main-9.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main-9.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-15.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-17.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-18.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-19.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-20.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-20.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index-9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/make-model-year.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/make-model-year.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/make-model.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/make-model.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/make.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/make.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/chunk/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/chunk/footer.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/chunk/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/chunk/header.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/blogpost/page-content.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/blogpost/page-content.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/chunk/_breadcrumbs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/chunk/_breadcrumbs.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/chunk/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/chunk/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/common/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common/_common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_blogpost.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_blogpost.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_burger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_burger.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_language.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_language.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_logo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/helpers/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/helpers/_vars.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +151,15 @@
       <workItem from="1654516104163" duration="204000" />
       <workItem from="1654685358110" duration="3581000" />
       <workItem from="1654863570175" duration="769000" />
-      <workItem from="1655068123717" duration="5370000" />
+      <workItem from="1655068123717" duration="5934000" />
+      <workItem from="1655294438096" duration="4260000" />
+      <workItem from="1655361692746" duration="639000" />
+      <workItem from="1655367216917" duration="1472000" />
+      <workItem from="1655585372911" duration="282000" />
+      <workItem from="1655661558876" duration="511000" />
+      <workItem from="1655919542089" duration="1113000" />
+      <workItem from="1656089488566" duration="1165000" />
+      <workItem from="1656318548817" duration="7000000" />
     </task>
     <servers />
   </component>
@@ -212,10 +187,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1653497812428" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1654864335465">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1656093114203">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1654864335465" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1656093114203" />
     <state x="479" y="145" width="578" height="534" key="find.popup" timestamp="1654513381794">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -224,9 +199,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1654691639542" />
-    <state x="431" y="145" width="672" height="160" key="search.everywhere.popup" timestamp="1655073054584">
+    <state x="431" y="145" width="672" height="160" key="search.everywhere.popup" timestamp="1656338667124">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="160" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1655073054584" />
+    <state x="431" y="145" width="672" height="160" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1656338667124" />
   </component>
 </project>

@@ -11,9 +11,11 @@
   }
   &__item {
     &:first-child {
-      flex: 2;
+      max-width: 525px;
+      width: 100%;
       @include media-lg {
         flex: 1;
+        width: auto;
       }
       @include media-md {
         width: 100%;
@@ -22,9 +24,13 @@
       }
     }
     &:not(:first-child) {
-      flex: 1;
+      margin-left: 25px;
+      max-width: 187px;
+      width: 100%;
     }
     &:last-child {
+      max-width: 220px;
+      margin-left: auto;
       @include media-sm {
         width: 100%;
         flex: auto;
@@ -33,6 +39,8 @@
     }
   }
   &__copywright {
+    display: block;
+    margin-top: 15px;
     color: $light-grey;
   }
   &__title {
@@ -46,7 +54,6 @@
     flex-direction: column;
     &-link {
       font-size: 14px;
-      margin-bottom: 5px;
       color: $light-grey;
     }
   }
